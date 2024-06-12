@@ -19,24 +19,24 @@ This landing page for the National Art Museum of Ukraine (NAMU) informs visitors
 ## Installation
 
 **1. Clone the repository:**
-    ```sh
+    ```
     git clone https://github.com/kostyaniekrasov/museum_v2-landing.git
     ```
 
 **2. Navigate to the project directory:**
-    ```sh
+    ```
     cd museum_v2-landing
     ```
 
 **3. Install the dependencies:**
-    ```sh
+    ```
     npm install
     ```
 
 ## Running the Project
 
 To start the project locally, run:
-```sh
+```
 npm start
 ```
 

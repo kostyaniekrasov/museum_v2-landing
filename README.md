@@ -7,9 +7,9 @@
 This landing page for the National Art Museum of Ukraine (NAMU) informs visitors about current exhibitions, upcoming events, and provides online ticket purchasing options. It features museum operating hours, details about exhibitions, and news updates.
 
 ## What I learned
- Responsive Design: Using CSS Grid and Flexbox for adaptable layouts.
- Sass: Structuring styles with the preprocessor for better code organization and reuse.
- Animations and Interactions: Implementing pseudo-elements and transitions for smooth animations.
+ #### Responsive Design: Using CSS Grid and Flexbox for adaptable layouts.
+ #### Sass: Structuring styles with the preprocessor for better code organization and reuse.
+ #### Animations and Interactions: Implementing pseudo-elements and transitions for smooth animations.
 
 ## Prerequisites
 
@@ -27,12 +27,10 @@ This landing page for the National Art Museum of Ukraine (NAMU) informs visitors
     ```
     cd museum_v2-landing
     ```
-
 **3. Install the dependencies:**
     ```
     npm install
     ```
-
 ## Running the Project
 
 To start the project locally, run:

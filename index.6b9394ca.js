@@ -1,0 +1,2 @@
+window.addEventListener("hashchange",function(){"#menu"===window.location.hash?document.body.classList.add("page__body--with-menu"):document.body.classList.remove("page__body--with-menu")});var e=document.getElementById("subscribe-to-the-digest__form");e.addEventListener("submit",function(t){t.preventDefault(),e.reset()});var t=document.getElementById("btn-ok"),n=document.getElementById("message-block");t.addEventListener("click",function(){n.style.display="none"});
+//# sourceMappingURL=index.6b9394ca.js.map

@@ -1,12 +1,9 @@
 %h1 {
-  // color: var(--gray-headings, #333A4A);
-
-  /* mobile / h1 */
   font-family: "Playfair Display", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100%; /* 48px */
+  line-height: 100%;
 
   @include onTablet {
     font-size: 72px;
@@ -18,12 +15,11 @@
 }
 
 %h2 {
-  // color: var(--gray-headings, #333A4A);
   font-family: "Playfair Display", serif;
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100%; /* 38px */
+  line-height: 100%;
 
   @include onTablet {
     font-size: 62px;
@@ -35,12 +31,11 @@
 }
 
 %h3 {
-  // color: var(--gray-headings, #333A4A);
   font-family: "Playfair Display", serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
-  line-height: 125%; /* 38px */
+  line-height: 125%;
 
   @include onTablet {
     font-size: 40px;
@@ -53,12 +48,11 @@
 }
 
 %h4 {
-  // color: var(--gray-headings, #333A4A);
   font-family: "Playfair Display", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 125%; /* 38px */
+  line-height: 125%;
 
   @include onTablet {
     font-size: 24px;
@@ -66,46 +60,41 @@
 }
 
 %h5 {
-  // color: var(--gray-headings, #333A4A);
   font-family: "Playfair Display", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 150%; /* 38px */
+  line-height: 150%;
 }
 
 %h6 {
-  // color: var(--gray-headings, #333A4A);
   font-family: "Playfair Display", serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 125%; /* 38px */
+  line-height: 125%;
 }
 
 %button {
-  // color: var(--gray-headings, #333A4A);
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 100%; /* 16px */
+  line-height: 100%;
 }
 
 %main {
-  // color: var(--gray-headings, #333A4A);
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
 }
 
 %additional {
-  // color: var(--gray-headings, #333A4A);
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 19.6px */
+  line-height: 140%;
 }

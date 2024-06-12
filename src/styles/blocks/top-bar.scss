@@ -1,5 +1,6 @@
 .top-bar {
   padding-block: 20px;
+  background-color: $c-background;
 
   @include onDesktop {
     padding-block: 26px;
@@ -51,11 +52,10 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
   }
 
   &--arrow {
-    // background-size: cover;
     width: 8px;
     height: 4.61px;
     background-image: url(/src/images/top-bar/arrow.svg);

@@ -1,7 +1,10 @@
 .menu {
+  .container {
+    height: 100vh;
+    position: relative;
+  }
   box-sizing: border-box;
   background-color: $c-background;
-  // height: 887px;
 
   &__wrapper {
     @include pageGrid;
@@ -9,11 +12,11 @@
 
   &__schedule {
     display: inline-block;
-   
+
     &--additional {
       color: $c-white;
     }
-   
+
     margin-bottom: 20px;
 
     grid-column: 1 / -1;
@@ -25,11 +28,11 @@
 
   &__address {
     display: inline-block;
-    
+
     &--additional {
       color: $c-white;
     }
-    
+
     margin-bottom: 40px;
 
     grid-column: 1 / -1;
@@ -62,7 +65,7 @@
       color: $c-white;
       @extend %h3;
       width: max-content;
-      
+
       @include hover(color, $c-hover-text);
 
       &::after {
@@ -125,26 +128,21 @@
   &__background {
     padding-top: 6px;
     display: none;
-    
+
     @include onTablet {
       display: flex;
-      grid-column: 2 / 6;
-      bottom: 0;
-    }
-    
-    @include onDesktop {
-      grid-column: 7 / 13;
-      grid-row: 1 / 6;
-      margin-right: -55px;
-    }
-
-    @include onDesign {
-      margin-right: 0;
     }
 
     &--img {
-      width: 100%;
-      object-fit: cover;
+      height: 466px;
+      object-fit: contain;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+
+      @include onDesktop {
+        height: 697px;
+      }
     }
   }
 
@@ -154,6 +152,6 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
   }
 }

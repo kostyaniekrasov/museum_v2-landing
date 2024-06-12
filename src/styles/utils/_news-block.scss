@@ -1,13 +1,42 @@
 .news__block {
   margin-bottom: 50px;
-  
+
   &--2 {
     margin-bottom: 20px;
   }
-  
+
   &--img {
     width: 100%;
     margin-bottom: 20px;
+    height: 281px;
+
+    @include onTablet {
+      height: 330px;
+    }
+
+    @include onDesktop {
+      height: 370px;
+    }
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &--1 {
+      background-image: url(/src/images/news/news1.webp);
+
+      @include onDesktop {
+        background-image: url(/src/images/news/1.webp);
+      }
+    }
+
+    &--2 {
+      background-image: url(/src/images/news/news2.webp);
+
+      @include onDesktop {
+        background-image: url(/src/images/news/2.webp);
+      }
+    }
 
     @include onTablet {
       margin-bottom: 30px;
